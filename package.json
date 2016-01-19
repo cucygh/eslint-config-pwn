@@ -1,9 +1,12 @@
 {
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "eslint-config-pwn",
   "description": "御用 ESLint 配置共享包",
-  "keywords": [ "eslint", "eslintconfig" ],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "author": "Pwn <hi@pwn.buzz> (http://pwn.buzz)",
   "repository": "https://github.com/pwnn/eslint-config-pwn"
 }
