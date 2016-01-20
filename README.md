@@ -12,6 +12,7 @@ $ npm i -S eslint-config-pwn
 
 ```js
 // .eslintrc.js
+
 module.exports = {
   extends: 'pwn'
 }
