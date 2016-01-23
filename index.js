@@ -125,7 +125,7 @@ module.exports = {
     'no-shadow-restricted-names' : 2,
     'no-undef-init' : 2,
     'no-undef' : [ 2, { 'typeof' : true } ],
-    'no-unused-vars' : [ 2, { 'vars' : 'all', 'args' : 'all' } ],
+    'no-unused-vars' : [ 2, { 'vars' : 'local', 'args' : 'all' } ],
     'no-use-before-define' : 2,
 
 
