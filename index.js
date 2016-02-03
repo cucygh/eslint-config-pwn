@@ -215,7 +215,7 @@ module.exports = {
     'object-shorthand' : [ 1, 'always' ],
     'prefer-arrow-callback' : 1,
     'prefer-const' : 1,
-    'prefer-reflect' : 1,
+    'prefer-reflect ' : 0,
     'prefer-spread' : 1,
     'prefer-template' : 1,
     'require-yield' : 2
