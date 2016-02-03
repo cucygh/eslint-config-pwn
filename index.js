@@ -2,7 +2,7 @@
 // https://www.npmjs.com/package/eslint-config-pwn
 
 /* eslint-env commonjs */
-/* eslint quotes: [ 1, "single" ], no-magic-numbers: 0, max-len: 0 */
+/* eslint no-magic-numbers: 0, max-len: 0 */
 
 module.exports = {
 
@@ -181,7 +181,7 @@ module.exports = {
     'operator-linebreak' : [ 1, 'before' ],
     'padded-blocks' : 0,
     'quote-props' : [ 1, 'always', { 'keywords' : false } ],
-    'quotes' : [ 1, 'backtick', 'avoid-escape' ],
+    'quotes' : [ 1, 'single', 'avoid-escape' ],
     'require-jsdoc' : 0,
     'semi-spacing' : [ 1, { 'before' : false, 'after' : true } ],
     'semi' : [ 1, 'never' ],
